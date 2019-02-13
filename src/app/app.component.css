@@ -1,0 +1,68 @@
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css");
+body {
+  padding: 0;
+  margin: 0;
+}
+.head {
+  width: auto;
+  height: 50vh;
+  background-color: rgb(75, 13, 35);
+  display: flex;
+  flex-direction: row;
+}
+
+.img {
+  width: 15vw;
+  height: 10vh;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 10px;
+}
+.nav {
+  color: rgb(228, 184, 217);
+  flex-direction: row;
+  font-family: "Trebuchet MS", sans-serif;
+  margin-left: 20vw;
+  margin-top: 10vh;
+}
+.sl {
+  margin-top: 10vh;
+  background-color: azure;
+}
+.alert {
+  width: 10vw;
+  animation-duration: 6s;
+  animation-name: an;
+}
+@keyframes an {
+  from {
+    left: 00%;
+  }
+
+  to {
+    /* left: auto; */
+    left: 100%;
+  }
+}
+.sldiv {
+  border-radius: 40px;
+  animation-name: iman;
+  animation-duration: 7s;
+  background-position: right;
+}
+@keyframes iman {
+  from {
+    right: 00%;
+  }
+
+  to {
+    right: 100%;
+  }
+}
+
+footer {
+  background-color: beige;
+  height: 20vh;
+  width: auto;
+  padding: 5em;
+  font-family: "Lucida Sans Unicode", Geneva;
+}
